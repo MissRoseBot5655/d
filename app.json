@@ -1,0 +1,75 @@
+{
+  "name": "CB Advance Bot",
+  "logo": "",
+  "description": "Advance Telegram CoinBase BOT",
+  "keywords": [
+    "telegram",
+    "CoinBase",
+    "Investment Bot",
+    "CoinBase Bot",
+    "BTC Telegram Bot"
+  ],
+  "repository": "https://github.com/@/AdvanceCBBot",
+  "env": {
+    "mongoLink": {
+      "description": "Paste Your Mango DB url Here",
+      "value": "ANYTHING"
+    },
+    "apikey": {
+      "description": "Your CoinBase API Key",
+      "value": ""
+    },
+    "secretkey": {
+      "description": "CoinBase 2nd Key",
+      "value": ""
+    },
+    "bot_token": {
+      "description": "Telegram Bot Token",
+      "value": ""
+    },
+    "bot_name": {
+      "description": "Telegram Bot Name",
+      "value": "ANYTHING"
+    },
+    "bot_admin": {
+      "description": "Bot Admin or Sudo User",
+      "value": ""
+    },
+    "channelsList": {
+      "description": "Channel Username",
+      "value": ""
+    },
+    "channelscheck": {
+      "description": "Check Channel List",
+      "value": ""
+    },
+    "reffer_bonus": {
+      "description": "Per Referral Bonus",
+      "value": ""
+    },
+    "min_wd": {
+      "description": "Minimum Withdrawal",
+      "value": ""
+    },
+    "daily_bonus": {
+      "description": "Daily Bonus.",
+      "value": ""
+    },
+    "currency": {
+      "description": "Currency Like DOGE/BTC/LCH etc.",
+      "value": "DOGE"
+    },
+    "payment_channel": {
+      "description": "Your Payment Channel Username",
+      "value": "@Username"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10"
+      }
+    }
+  ]
+}
